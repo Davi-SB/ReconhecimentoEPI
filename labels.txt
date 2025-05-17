@@ -1,0 +1,3 @@
+0 ComCapacete
+1 SemCapacete
+2 FalsoCapacete
