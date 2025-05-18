@@ -12,7 +12,7 @@ st.set_page_config(
 
 # Carrega modelo só uma vez
 if 'model' not in st.session_state:
-    st.session_state.model = load_model('Keras_model.h5')
+    st.session_state.model = load_model('keras_model.h5')
 model = st.session_state.model
 classes = ['Com Capacete', 'Sem Capacete', 'Capacete Falso']
 
