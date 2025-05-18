@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python=3.11.9         
   - pip                   
-  - pip:
-      - streamlit  
+  - pip:  
       - pillow     
       - tensorflow==2.15.0
